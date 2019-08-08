@@ -1,0 +1,126 @@
+body {
+	margin: 0;
+	background-color: #7f7e7e;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 220px 0;
+	width: 100%;
+	max-width: 700px;
+	background-color: white;
+	box-shadow: 2px 2px 20px #444;
+}
+
+p, li {
+	font-family: "Rubik", sans-serif;
+}
+
+p {
+	text-align: justify;
+}
+
+li {
+	list-style-type: circle;
+}
+
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	background-image: url(https://images.pexels.com/photos/1048033/pexels-photo-1048033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	padding: 20px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 48px;
+	animation: crazyFirstName 2s infinite;
+}
+
+header h1, header p {
+	text-align: center;
+	color: #ffc532;
+	text-shadow: 2px 2px 5px #000;
+	opacity: 0.8;
+}
+
+section {
+	padding: 10px 20%;
+}
+
+h2 {
+	cursor: pointer;
+	transition-duration: 5s;
+}
+
+.about h2 {
+	color: rgb(136, 204, 136);
+	margin-top: 60px;
+	font-size: 28px;
+}
+
+.interests h2 {
+	color: rgb(85, 170, 85);
+	margin-top: 40px;
+}
+
+.more h2 {
+	color: rgb(17, 102, 17);
+}
+
+.k1300s {
+	width: 100%;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 30px;
+	background-color: #464646;
+	box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+	text-align: center;
+	color: #b0b5c4;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffc532;
+    font-weight: bold;
+}
+
+.k1300s:hover {
+	content: url(https://mcn-images.bauersecure.com/upload/219852/images/01bmw-k1300-s.jpg);
+}
+
+.list li:hover {
+	font-size: 20px;
+	cursor: pointer;
+}
+
+h2:hover {
+	margin-left: 40%;
+}
+
+@keyframes crazyFirstName {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.25);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
